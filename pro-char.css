@@ -1,0 +1,171 @@
+/*PRO-CHARSET*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Inter", sans-serif;
+  margin: 30px 30px;
+  line-height: 1.6;
+}
+section > .container {
+  width: 1170pxpx;
+  margin: auto;
+  display: block;
+  padding: 20px 20px 40px 20px;
+}
+
+#char-info .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 60% 40%;
+  gap: 20px;
+  background-color: blue;
+}
+.goal {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+.team {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+.timeline {
+  grid-column: 4 / 5;
+  grid-row: 1 / 3;
+}
+.primary {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+.scope {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+}
+
+/*GOALS*/
+.goal {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(201, 231, 221, 0.89);
+  padding: 10px;
+}
+.goal h1 {
+  border-bottom: 1px solid rgba(149, 147, 147, 0.644);
+}
+.goal-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(149, 147, 147, 0.644);
+}
+.goal-info {
+  padding: 10px;
+  margin: 0 15px;
+}
+.goal-icon {
+  padding: 10px;
+  margin: 0 30px;
+}
+
+/*TEAM*/
+
+.team {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(201, 231, 221, 0.89);
+  padding: 10px;
+}
+.team h1 {
+  border-bottom: 1px solid rgba(149, 147, 147, 0.644);
+}
+.team-item {
+  display: flex;
+  align-items: center;
+}
+.team-info {
+  padding: 10px;
+  margin: 0 15px;
+}
+.team-icon {
+  padding: 10px;
+  margin: 0 30px;
+}
+
+/*TIMELINE*/
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(201, 231, 221, 0.89);
+  padding: 10px;
+}
+.timeline h1 {
+  border-bottom: 1px solid rgba(149, 147, 147, 0.644);
+}
+.timeline-item {
+  display: flex;
+  align-items: center;
+}
+.timeline-info {
+  padding: 10px;
+  margin: 0 15px;
+}
+.timeline-icon {
+  padding: 10px;
+  margin: 0 30px;
+}
+.timeline-info {
+  border-bottom: 2px dotted rgba(59, 59, 236, 0.763);
+}
+
+/*PRIMARY*/
+
+.primary {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(201, 231, 221, 0.89);
+  padding: 10px;
+}
+.primary h1 {
+  border-bottom: 1px solid rgba(149, 147, 147, 0.644);
+}
+.primary-item {
+  display: flex;
+  align-items: center;
+}
+.primary-info {
+  padding: 10px;
+  margin: 0 15px;
+}
+
+/*SCOPES*/
+.scope {
+  background-color: rgba(201, 231, 221, 0.89);
+  padding: 10px;
+}
+.scope .row {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.scope h1 {
+  border-bottom: 1px solid rgba(149, 147, 147, 0.644);
+}
+.scope-item {
+  display: flex;
+  flex-direction: column;
+}
+.scope-info {
+  padding: 10px;
+  margin: 0 15px;
+}
+.scope-icon {
+  padding: 10px;
+  margin: 0 15px;
+}
+
+#char-info .icon {
+  height: 32px;
+  width: 32px;
+}

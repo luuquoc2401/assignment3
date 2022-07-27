@@ -1,0 +1,128 @@
+@media (max-width: 500px) {
+  /*BANNER*/
+
+  .name {
+    display: none;
+  }
+  .row-- {
+    flex-direction: column;
+  }
+
+  #bar-info a {
+    padding: 10px 0;
+    text-align: left;
+    border-bottom: none;
+    border-left: none;
+  }
+  #bar-info a:nth-child(2),
+  #bar-info a:nth-child(5) {
+    border-right: none;
+  }
+
+  /*ABOUT*/
+
+  #about {
+    grid-template-columns: 1fr;
+  }
+
+  /*JOBS*/
+
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(26, 90px);
+    margin: 0 10px;
+  }
+  .column-1 {
+    grid-column: 1;
+    grid-row: 1 / 8;
+  }
+  .column-2 {
+    grid-column: 1;
+    grid-row: 24 / 27;
+  }
+  .column-3 {
+    grid-column: 1;
+    grid-row: 8 / 13;
+  }
+  .column-4 {
+    grid-column: 1;
+    grid-row: 21 / 24;
+  }
+  .column-5 {
+    grid-column: 1;
+    grid-row: 13 / 17;
+  }
+  .column-6 {
+    grid-column: 1;
+    grid-row: 17 / 21;
+  }
+
+  /*CERTIFICATE*/
+
+  #certificate .container {
+    padding: 0;
+  }
+  .cer-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .cer-item {
+    width: auto;
+    padding-left: 20px;
+  }
+  .cer-img {
+    width: auto;
+  }
+  .cer-detail {
+    width: auto;
+  }
+  .cer-detail h4 {
+    font-size: 16px;
+  }
+  .cer-detail h5 {
+    font-size: 12px;
+  }
+  .cer-item:nth-child(1),
+  .cer-item:nth-child(2) {
+    border-right: none;
+  }
+  .cer-item:nth-child(3) {
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  /*DỰ ÁN*/
+  .pro-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .pro-item {
+    width: auto;
+    margin-bottom: 30px;
+    border: 2px solid black;
+  }
+
+  /*FOOTER*/
+
+  #footer span {
+    display: none;
+  }
+  /*PRO-CHARTER*/
+
+  .goal-icon {
+    display: none;
+  }
+  .team-icon {
+    display: none;
+  }
+  .scope .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-row {
+    display: flex;
+    flex-direction: column;
+  }
+}

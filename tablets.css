@@ -1,0 +1,131 @@
+@media (max-width: 800px) {
+  /*BANNER*/
+
+  .name {
+    display: none;
+  }
+
+  /*ABOUT*/
+
+  .about-info {
+    padding: 20px 10px 20px 20px;
+  }
+  .about-info p,
+  h1 {
+    padding: 20px 10px 20px 10px;
+  }
+  .about-detail {
+    padding: 20px 10px 20px 20px;
+  }
+  .about-detail ul,
+  li {
+    padding-bottom: 5px;
+  }
+
+  /*JOBS*/
+
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(14, 90px);
+    margin: 0 10px;
+  }
+  .column-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 8;
+  }
+  .column-2 {
+    grid-column: 1 / 2;
+    grid-row: 12 / 15;
+  }
+  .column-3 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 6;
+  }
+  .column-4 {
+    grid-column: 2 / 3;
+    grid-row: 10 / 13;
+  }
+  .column-5 {
+    grid-column: 2 / 3;
+    grid-row: 6 / 10;
+  }
+  .column-6 {
+    grid-column: 1 / 2;
+    grid-row: 8 / 12;
+  }
+
+  /*CERTIFICATE*/
+
+  #certificate .container {
+    padding: 0;
+  }
+  .cer-row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+  .cer-item {
+    width: auto;
+    padding-left: 20px;
+  }
+  .cer-img {
+    width: auto;
+  }
+  .cer-detail {
+    width: auto;
+  }
+  .cer-detail h4 {
+    font-size: 16px;
+  }
+  .cer-detail h5 {
+    font-size: 12px;
+  }
+  .cer-item:nth-child(odd) .cer-detail {
+    border-right: none;
+  }
+  .cer-item:nth-child(3) {
+    border-bottom: none;
+  }
+  .cer-item:nth-child(1),
+  .cer-item:nth-child(2) {
+    border-right: 1px solid #d6c08d;
+  }
+
+  /*DỰ ÁN*/
+  #project .container {
+    margin: auto;
+    padding: 0;
+  }
+  .pro-row {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+  }
+  .pro-item {
+    width: auto;
+    margin: 0;
+  }
+  .pro-item .time {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 30% 70%;
+  }
+
+  .position {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  /*PRO-CHARTER*/
+
+  #char-info .container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  .team-row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
